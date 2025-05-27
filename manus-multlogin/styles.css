@@ -1,0 +1,92 @@
+/* Fundo preto geral */
+body {
+  background-color: #000000;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 15px;
+  padding: 0;
+  width: 360px; /* largura maior para popup */
+  box-sizing: border-box;
+}
+
+/* Centralizar texto */
+h1, h2 {
+  color: #b366ff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Área de texto */
+textarea#cookieInput {
+  width: 100%;
+  height: 150px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #6a0dad;
+  background-color: #111;
+  color: #eee;
+  font-size: 14px;
+  resize: vertical;
+  box-shadow: 0 0 8px #b366ff;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto 20px auto;
+  font-family: monospace;
+}
+
+/* Foco no textarea */
+textarea#cookieInput:focus {
+  border-color: #d580ff;
+  outline: none;
+  box-shadow: 0 0 12px #d580ff;
+}
+
+/* Container dos botões */
+.buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Botões */
+button {
+  background-color: #1a001a;
+  color: #d580ff;
+  border: 2px solid #b366ff;
+  padding: 10px 22px;
+  margin: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #b366ff;
+  transition: all 0.3s ease;
+  min-width: 120px; /* largura mínima para botões */
+}
+
+button:hover {
+  background-color: #b366ff;
+  color: #000;
+  box-shadow: 0 0 15px #d580ff;
+  border-color: #d580ff;
+}
+
+/* Status */
+.status {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  min-height: 22px;
+  color: #d580ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+  white-space: pre-wrap;
+}
+
+/* Ajuste no título secundário */
+h2 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #a64ca6;
+}
